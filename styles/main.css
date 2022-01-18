@@ -309,9 +309,7 @@ body {
   color: #010101;
   opacity: 0.7;
 }
-.training {
-  margin-top: -3px;
-}
+
 .grid-item:hover .training {
   margin-top: -80px;
 }
