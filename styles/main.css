@@ -397,14 +397,14 @@ body {
   background-color: #f3f3f3;
 }
 .distr-cover {
-  max-width: 640px;
+  max-width: 33.3vw;
   margin: 0 auto;
-  padding: 40px 0 85px 0;
+  padding: 2.08vw 0 4.42vw;
 }
 .distr-title {
-  font-size: 34px;
+  font-size: 1.77vw;
   text-align: center;
-  line-height: 49px;
+  line-height: 2.55vw;
 }
 .distr-title h3 {
   position: relative;
@@ -413,35 +413,35 @@ body {
 .distr-title h3::before {
   position: absolute;
   content: " ";
-  top: -18px;
-  left: -8px;
-  height: 53px;
-  width: 53px;
+  top: -0.94vw;
+  left: -0.42vw;
+  height: 2.76vw;
+  width: 2.76vw;
   background-color: #fbf138;
-  box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
+  box-shadow: 0vw 0.68vw 1.56vw  rgba(251, 241, 56, 0.3);
   border-radius: 100%;
   z-index: -1;
 }
 .distr-form {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 0.78vw;
 }
 .email {
-  padding: 22px 130px 22px 20px;
-  font-size: 18px;
+  padding: 1.15vw 6.77vw 1.15vw 1.04vw;
+  font-size: 0.94vw;
   border: none;
-  margin-left: 20px;
+  margin-left: 1.04vw;
 }
 .email::placeholder{
   opacity: 0.3;
 }
 
 .distr-btn {
-  margin-left: 20px;
-  padding: 22px 42px 20px 45px;
+  margin-left: 1.04vw;
+  padding: 1.15vw 2.19vw 1.04vw 2.34vw;
   background-color: #fbf138;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 0.83vw;
   line-height: 150%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -456,31 +456,31 @@ body {
   color: #fbf138;
 }
 .agreement {
-  padding-left: 9px;
-  font-size: 11px;
-  gap: 10px;
+  padding-left: 0.47vw;
+  font-size: 0.57vw;
+  gap: 0.52vw;
 }
 .checkbox:checked,
 .checkbox:not(:checked) {
   position: absolute;
-  left: -9999px;
+  left: -520.78vw;
 }
 .checkbox:checked + label,
 .checkbox:not(:checked) + label {
   position: relative;
-  padding-left: 35px;
+  padding-left: 1.82vw;
   cursor: pointer;
 }
 
 .checkbox:checked + label::after {
   content: "";
   position: absolute;
-  width: 24px;
-  height: 24px;
+  width: 1.25vw;
+  height: 1.25vw;
   transition: 0.5s;
   opacity: 1;
-  left: 9px;
-  top: -5px;
+  left: 0.47vw;
+  top: -0.26vw;
   background-image: url(../images/mdi_check_box.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -489,13 +489,13 @@ body {
 .checkbox:not(:checked) + label::before {
   content: "";
   position: absolute;
-  width: 16px;
-  height: 16px;
-  left: 10px;
-  top: -3px;
+  width: 0.83vw;
+  height: 0.83vw;
+  left: 0.52vw;
+  top: -0.16vw;
   background-color: transparent;
-  border-radius: 2px;
-  border: 2px solid #5d575f;
+  border-radius: 0.1vw;
+  border: 0.1vw solid #5d575f;
 }
 
 .radio:checked + label::before {
@@ -504,34 +504,34 @@ body {
 
 /*----------ABOUT COMPANY--------*/
 .about-company {
-  margin-top: 160px;
-  margin-bottom: 150px;
+  margin-top: 8.33vw;
+  margin-bottom: 7.81vw;
 }
 
 .about-company-cover {
   display: flex;
-  gap: 95px;
+  gap: 4.95vw;
 }
 .cover-text {
 }
 .cover-text-title {
   font-weight: bold;
-  font-size: 40px;
-  margin-top: 3px;
-  margin-bottom: 22px;
+  font-size: 2.08vw;
+  margin-top: 0.16vw;
+  margin-bottom: 1.15vw;
 }
 
 .cover-text-description {
-  max-width: 470px;
-  margin-bottom: 55px;
-  font-size: 18px;
+  max-width: 24.48vw;
+  margin-bottom: 2.86vw;
+  font-size: 0.94vw;
   line-height: 150%;
-  margin-left: 1px;
+  margin-left: 0.05vw;
 }
 .cover-text-btn {
-  padding: 23px 52px;
+  padding: 1.2vw 2.71vw;
   background-color: #fbf138;
-  font-size: 16px;
+  font-size: 0.83vw;
   font-weight: bold;
   line-height: 150%;
   letter-spacing: 0.03em;
@@ -553,8 +553,8 @@ body {
       rgba(253, 249, 182, 0.135) 100%
     ),
     url(../images/trainer.png);
-  width: 581px;
-  height: 336px;
+  width: 30.26vw;
+  height: 17.5vw;
   background-position: center;
   background-size: cover;
 }
@@ -562,7 +562,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 1%;
-  margin-top: 58px;
+  margin-top: 3.02vw;
   flex-wrap: wrap;
 }
 .advantages-item {
@@ -585,19 +585,19 @@ body {
 
 .advantages-item h4 {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 0.94vw;
   line-height: 125%;
-  margin-bottom: 21px;
+  margin-bottom: 1.09vw;
 }
 .advantages-item p {
-  font-size: 18px;
+  font-size: 0.94vw;
   line-height: 150%;
   opacity: 0.6;
 }
 /*----------FOOTER---------*/
 .footer {
   background-color: #f3f3f3;
-  padding-top: 30px;
+  padding-top: 1.56vw;
 }
 
 .footer-item {
@@ -607,20 +607,20 @@ body {
 .footer-logo {
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
-  width: 97px;
-  height: 30px;
-  margin-top: 17px;
+  width: 5.05vw;
+  height: 1.56vw;
+  margin-top: 0.89vw;
   flex-basis: 16%;
-  margin-left: 3px;
+  margin-left: 0.16vw;
 }
 .footer-nav {
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
-  gap: 90px;
+  gap: 4.69vw;
   flex-basis: 64%;
   padding: 0;
-  margin-top: 30px;
+  margin-top: 1.56vw;
 }
 
 .footer-nav li {
@@ -629,41 +629,41 @@ body {
   transition: 0.5s;
 }
 .footer-nav li:hover {
-  margin-top: -4px;
-  border-bottom: 1px solid #2b3540;
+  margin-top: -0.21vw;
+  border-bottom: 0.05vw solid #2b3540;
 }
 .footer-nav a {
   text-decoration: none;
   color: #2b3541;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.73vw;
   line-height: 150%;
 }
 
 .footer-email {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 0.83vw;
   line-height: 150%;
   position: relative;
   z-index: 1;
-  margin-top: 29px;
-  margin-right: 61px;
+  margin-top: 1.51vw;
+  margin-right: 3.18vw;
 }
 .footer-email::before {
   content: " ";
   position: absolute;
-  right: 136px;
-  bottom: 10px;
-  height: 25px;
-  width: 25px;
+  right: 7.08vw;
+  bottom: 0.52vw;
+  height: 1.3vw;
+  width: 1.3vw;
   background-color: #fbf138;
-  box-shadow: 0px 13px 24px rgb(251 241 56 / 30%);
+  box-shadow: 0vw 0.68vw 1.25vw rgb(251 241 56 / 30%);
   border-radius: 100%;
   z-index: -1;
 }
 .footer-social {
   display: flex;
-  gap: 25px;
+  gap: 1.3vw;
 }
 .footer-social-mobile {
   display: none;
@@ -672,19 +672,19 @@ body {
 .footer-end {
   display: flex;
   justify-content: space-between;
-  margin-top: 5px;
-  margin-left: 1px;
+  margin-top: 0.26vw;
+  margin-left: 0.05vw;
 }
 .footer-text {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.73vw;
   line-height: 150%;
   color: #b7babe;
-  margin-top: 5px;
+  margin-top: 0.26vw;
 }
 .footer-front {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.73vw;
   line-height: 150%;
   color: #b7babe;
 }
@@ -694,8 +694,8 @@ body {
 
 /*----------BURGER-MENU---------*/
 .burger-menu {
-  width: 34px;
-  height: 23px;
+  width: 1.77vw;
+  height: 1.2vw;
   background-color: transparent;
   background-image: url(../images/burger-menu.svg);
   background-repeat: no-repeat;
@@ -711,42 +711,42 @@ body {
   top: -525px;
   left: 0;
   right: 0;
-  margin: 5px auto 0;
-  padding: 40px 15px 20px;
+  margin: 0.26vw auto 0;
+  padding: 2.08vw 0.78vw 1.04vw;
   box-sizing: border-box;
 }
 .modal-mobile .logo-header {
-  margin-top: 0px;
+  margin-top: 0vw;
 }
 .modal-mobile .header-nav {
   flex-direction: column;
   align-items: flex-start;
-  gap: 40px;
+  gap: 2.08vw;
   margin: 0 auto;
   margin-left: 0;
   text-align: left;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 1.56vw;
+  margin-bottom: 2.08vw;
   padding: 0;
 }
 .modal-mobile .header-nav li:nth-child(2) {
   width: 100%;
-  padding: 20px 0;
-  border-top: 1px solid #cbcdcf;
-  border-bottom: 1px solid #cbcdcf;
+  padding: 1.04vw 0;
+  border-top: 0.05vw solid #cbcdcf;
+  border-bottom: 0.05vw solid #cbcdcf;
 }
 .modal-mobile .social {
   justify-content: flex-end;
-  margin-bottom: 60px;
+  margin-bottom: 3.13vw;
 }
 .modal-mobile .banner-link {
   margin: 0;
-  padding: 22px 17vw;
-  max-width: 360px;
+  padding: 1.15vw 326.4px;
+  max-width: 18.75vw;
 }
 .burger-close {
-  width: 22px;
-  height: 22px;
+  width: 1.15vw;
+  height: 1.15vw;
   background-color: transparent;
   background-image: url(../images/close.svg);
   background-repeat: no-repeat;
@@ -754,8 +754,8 @@ body {
   border: none;
   cursor: pointer;
   position: absolute;
-  top: 40px;
-  right: 20px;
+  top: 2.08vw;
+  right: 1.04vw;
 }
 
 /*-------------MODAL--------------*/
@@ -782,15 +782,15 @@ body {
 .popup-content {
   text-align: center;
   background: #f3f3f3;
-  width: 600px;
-  padding: 60px;
+  width: 31.25vw;
+  padding: 3.13vw;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 2.08vw;
   position: relative;
 }
 .popup-close {
-  width: 22px;
-  height: 22px;
+  width: 1.15vw;
+  height: 1.15vw;
   background-color: transparent;
   background-image: url(../images/close.svg);
   background-repeat: no-repeat;
@@ -798,59 +798,59 @@ body {
   border: none;
   cursor: pointer;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 1.04vw;
+  right: 1.04vw;
 }
 .popup-title {
   position: relative;
-  font-size: 28px;
+  font-size: 1.46vw;
   font-weight: 700;
-  margin-bottom: 18px;
+  margin-bottom: 0.94vw;
 }
 .popup-title::before {
   content: "";
   position: absolute;
-  top: -25px;
+  top: -1.3vw;
   left: 0;
   background-color: #fbf138;
-  box-shadow: 0px 13px 24px rgb(251 241 56 / 30%);
-  padding: 27px;
-  border-radius: 30px;
+  box-shadow: 0vw 0.68vw 1.25vw rgb(251 241 56 / 30%);
+  padding: 1.41vw;
+  border-radius: 1.56vw;
   z-index: 0;
 }
 .popup-text {
-  font-size: 18px;
+  font-size: 0.94vw;
   line-height: 1.5;
-  margin-bottom: 40px;
+  margin-bottom: 2.08vw;
 }
 .popup-form input {
   border: none;
   margin: 0 auto;
-  padding: 23px 0 23px 17p x;
+  padding: 1.2vw 0 1.2vw 17p x;
   width: 90%;
 }
 .popup-form input[type="email"] {
-  margin-bottom: 20px;
+  margin-bottom: 1.04vw;
 }
 
 .popup-button {
   color: #2b3541;
-  font-size: 16px;
+  font-size: 0.83vw;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
   background-color: #fbf138;
-  padding: 23px;
-  letter-spacing: 0.5px;
-  box-shadow: 0px 11px 28px -15px #fbf138;
+  padding: 1.2vw;
+  letter-spacing: 0.03vw;
+  box-shadow: 0vw 0.57vw 1.46vw -0.78vw #fbf138;
   display: block;
   transition: 0.5s;
-  margin-top: 40px;
+  margin-top: 2.08vw;
 }
 .popup-button:hover {
   background-color: #2b3541;
   color: #fbf138;
-  box-shadow: 0px 11px 28px -15px #2b3541;
+  box-shadow: 0vw 0.57vw 1.46vw -0.78vw #2b3541;
 }
 
 /*----------MEDIA-------------*/
