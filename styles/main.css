@@ -3,15 +3,15 @@ body {
   color: #2b3541;
 }
 .container {
-  max-width: 1140px;
+  max-width: 59.375vw;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0.78vw;
+  padding-right: 0.78vw;
 }
 /*----------HEADER---------*/
 .header {
-  padding-top: 25px;
-  padding-bottom: 6px;
+  padding-top: 1.3vw;
+  padding-bottom: 0.31vw;
   display: flex;
   justify-content: space-between;
 }
@@ -19,23 +19,24 @@ body {
   display: block;
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
-  width: 120px;
-  height: 56px;
+  background-size: contain;
+  max-width: 5.05vw;
+  height: 2.92vw;
   flex-basis: 20%;
 }
 .header nav {
-  flex-basis: 120%;
+  flex-basis: 74.5%;
 }
 .header-nav {
   display: flex;
   list-style-type: none;
-  gap: 54px;
-  margin-top: 4px;
+  gap: 2.81vw;
+  margin-top: 0.21vw;
 }
 .header-nav a {
   text-decoration: none;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.94vw;
   line-height: 1.5;
   color: #2b3541;
 }
@@ -43,25 +44,24 @@ body {
   content: "";
   display: block;
   width: 0;
-  height: 1px;
+  height: 0.052vw;
   background-color: #2b3540;
-  transition: .5s;
+  transition: 0.5s;
 }
 .header-nav a:hover:after {
   width: 100%;
-  margin-top: 4px;
+  margin-top: 0.208vw;
 }
 .social {
   display: flex;
-  gap: 30px;
-  flex-basis: 90px;
+  gap: 1.56vw;
 }
 .inst {
   display: block;
   background-image: url(../images/IN.svg);
   background-repeat: no-repeat;
-  width: 30px;
-  height: 30px;
+  width: 1.56vw;
+  background-size: contain;
 }
 .inst:hover {
   transform: scale(1.2666);
@@ -70,8 +70,8 @@ body {
   display: block;
   background-image: url(../images/FB.svg);
   background-repeat: no-repeat;
-  width: 30px;
-  height: 30px;
+  width: 1.56vw;
+  background-size: contain;
 }
 .fb:hover {
   transform: scale(1.2666);
@@ -79,29 +79,29 @@ body {
 /*---------BANNER---------*/
 .banner {
   position: relative;
+  margin-top: 11.6vw;
 }
 .banner-title {
-  margin-top: 224px;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 2.5vw;
   line-height: 125%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .text-first {
-  font-size: 40px;
-  margin-top: 44px;
+  font-size: 2.08vw;
+  margin-top: 2.29vw;
   margin-bottom: 0;
 }
 .text-first span {
-  margin-right: 22px;
+  margin-right: 1.146vw;
 }
 .text-second {
-  font-size: 18px;
+  font-size: 0.94vw;
   line-height: 150%;
-  margin-top: 23px;
-  margin-left: 93px;
-  margin-bottom: 58px;
+  margin-top: 1.28vw;
+  margin-left: 4.8vw;
+  margin-bottom: 3vw;
 }
 .banner-link {
   text-transform: uppercase;
@@ -109,11 +109,10 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   cursor: pointer;
-  padding: 22px 31px;
+  padding: 1.15vw 1.61vw;
   background: #fbf138;
-  box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
-  margin-top: 20px;
-  margin-left: 91px;
+  box-shadow: 0vw 0.677vw 1.25vw rgb(251 241 56 / 30%);
+  margin-left: 4.74vw;
   transition: 0.5s;
 }
 .banner-link:hover {
@@ -126,10 +125,10 @@ body {
   background-image: url(../images/arrow.svg);
   background-repeat: no-repeat;
   background-color: #fff;
-  border: none;
-  width: 56px;
-  height: 58px;
-  margin-top: 204px;
+  background-size: contain;
+  max-width: 2.7vw;
+  height: 2.86vw;
+  margin-top: 10.57vw;
 }
 .banner-box {
   display: flex;
@@ -137,10 +136,10 @@ body {
   width: 100%;
   gap: 0.7vw;
   position: absolute;
-  top: -226px;
-  z-index: -1;
-  right: 304px;
+  top: -11.6vw;
+  right: 15.9vw;
   height: 44.2vw;
+  z-index: -1;
 }
 .box-gradient-left {
   background: linear-gradient(
@@ -162,13 +161,13 @@ body {
 }
 .box-image {
   position: absolute;
-  bottom: 2px;
-  right: -96px;
+  bottom: 0.1vw;
+  right: -5vw;
 }
 
 /*---------EVENTS---------*/
 .events {
-  margin-top: 159px;
+  margin-top: 8.59vw;
 }
 .events-title h2 {
   font-size: 40px;
@@ -206,7 +205,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  transition: .5s;
+  transition: 0.5s;
 }
 .event-gradient:hover {
   background: linear-gradient(
@@ -241,7 +240,7 @@ body {
   padding: 21px 37px;
   max-width: 148px;
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 .event-gradient:hover .button {
   opacity: 1;
@@ -470,7 +469,11 @@ body {
   text-decoration: none;
   border: none;
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
+}
+.distr-btn:hover {
+  background: #2b3541;
+  color: #fbf138;
 }
 .agreement {
   padding-left: 9px;
@@ -494,7 +497,7 @@ body {
   position: absolute;
   width: 24px;
   height: 24px;
-  transition: .5s;
+  transition: 0.5s;
   opacity: 1;
   left: 9px;
   top: calc(50% - 12px);
@@ -519,7 +522,7 @@ body {
   position: absolute;
   width: 12px;
   height: 12px;
-  transition: .5s;
+  transition: 0.5s;
   opacity: 0;
   left: 15px;
   top: calc(50% - 6px);
@@ -567,7 +570,7 @@ body {
   text-decoration: none;
   border: none;
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
 }
 .cover-text-btn:hover {
   background-color: #2b3541;
@@ -653,7 +656,7 @@ body {
 .footer-nav li {
   margin-top: 0;
   border-bottom: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 .footer-nav li:hover {
   margin-top: -4px;
@@ -871,7 +874,7 @@ body {
   letter-spacing: 0.5px;
   box-shadow: 0px 11px 28px -15px #fbf138;
   display: block;
-  transition: .5s;
+  transition: 0.5s;
   margin-top: 40px;
 }
 .popup-button:hover {
@@ -881,6 +884,11 @@ body {
 }
 
 /*----------MEDIA-------------*/
+@media (max-width: 1900px) {
+  .banner-box {
+  }
+}
+
 @media (min-width: 861px) {
   .burger-menu {
     display: none;
