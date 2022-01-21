@@ -418,7 +418,7 @@ body {
   height: 2.76vw;
   width: 2.76vw;
   background-color: #fbf138;
-  box-shadow: 0vw 0.68vw 1.56vw  rgba(251, 241, 56, 0.3);
+  box-shadow: 0vw 0.68vw 1.56vw rgba(251, 241, 56, 0.3);
   border-radius: 100%;
   z-index: -1;
 }
@@ -432,7 +432,7 @@ body {
   border: none;
   margin-left: 1.04vw;
 }
-.email::placeholder{
+::placeholder {
   opacity: 0.3;
 }
 
@@ -504,7 +504,7 @@ body {
 
 /*----------ABOUT COMPANY--------*/
 .about-company {
-  margin-top: 8.33vw;
+  margin-top: 8.44vw;
   margin-bottom: 7.81vw;
 }
 
@@ -575,8 +575,14 @@ body {
 .advantages-item:nth-child(2) {
   width: 28%;
 }
+.advantages-item:nth-child(2) p {
+  margin-left: 0.16vw;
+}
 .advantages-item:nth-child(3) {
   width: 22%;
+}
+.advantages-item:nth-child(3) p {
+  margin-left: -0.1vw;
 }
 
 .advantages-item:last-child {
@@ -607,6 +613,7 @@ body {
 .footer-logo {
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
+  background-size: contain;
   width: 5.05vw;
   height: 1.56vw;
   margin-top: 0.89vw;
@@ -618,7 +625,7 @@ body {
   display: flex;
   justify-content: flex-start;
   gap: 4.69vw;
-  flex-basis: 64%;
+  flex-basis: 64.3%;
   padding: 0;
   margin-top: 1.56vw;
 }
@@ -642,12 +649,12 @@ body {
 
 .footer-email {
   font-weight: 700;
-  font-size: 0.83vw;
+  font-size: 0.85vw;
   line-height: 150%;
   position: relative;
   z-index: 1;
   margin-top: 1.51vw;
-  margin-right: 3.18vw;
+  margin-right: 3.28vw;
 }
 .footer-email::before {
   content: " ";
@@ -663,7 +670,14 @@ body {
 }
 .footer-social {
   display: flex;
-  gap: 1.3vw;
+  gap: 1.46vw;
+  height: 1.35vw;
+}
+.footer-social .inst {
+  width: 1.46vw;
+}
+.footer-social .fb {
+  width: 1.4vw;
 }
 .footer-social-mobile {
   display: none;
@@ -783,14 +797,14 @@ body {
   text-align: center;
   background: #f3f3f3;
   width: 31.25vw;
-  padding: 3.13vw;
+  padding: 1.88vw 0vw 2.14vw;
   margin: 0 auto;
   margin-bottom: 2.08vw;
   position: relative;
 }
 .popup-close {
-  width: 1.15vw;
-  height: 1.15vw;
+  width: 1.04vw;
+  height: 1.04vw;
   background-color: transparent;
   background-image: url(../images/close.svg);
   background-repeat: no-repeat;
@@ -798,54 +812,61 @@ body {
   border: none;
   cursor: pointer;
   position: absolute;
-  top: 1.04vw;
-  right: 1.04vw;
+  top: 1.77vw;
+  right: 1.46vw;
 }
 .popup-title {
   position: relative;
   font-size: 1.46vw;
-  font-weight: 700;
-  margin-bottom: 0.94vw;
+  line-height: 125%;
+  font-weight: bold;
+  margin-bottom: 0.52vw;
+  z-index: 1;
 }
 .popup-title::before {
   content: "";
   position: absolute;
-  top: -1.3vw;
-  left: 0;
+  top: -1.72vw;
+  left: 6.46vw;
   background-color: #fbf138;
   box-shadow: 0vw 0.68vw 1.25vw rgb(251 241 56 / 30%);
   padding: 1.41vw;
-  border-radius: 1.56vw;
-  z-index: 0;
+  border-radius: 100%;
+  z-index: -1;
 }
 .popup-text {
   font-size: 0.94vw;
   line-height: 1.5;
   margin-bottom: 2.08vw;
+  max-width: 21.82vw;
+  margin-left: 4.69vw;
+  margin-top: 0.94vw;
 }
 .popup-form input {
   border: none;
   margin: 0 auto;
-  padding: 1.2vw 0 1.2vw 17p x;
-  width: 90%;
+  padding: 1.15vw 0 1.15vw 1.25vw;
+  width: 24.74vw;
+  font-size: 0.94vw;
 }
 .popup-form input[type="email"] {
-  margin-bottom: 1.04vw;
+  margin-bottom: 1.09vw;
 }
-
 .popup-button {
   color: #2b3541;
   font-size: 0.83vw;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
   background-color: #fbf138;
+  width: 23.7vw;
   padding: 1.2vw;
   letter-spacing: 0.03vw;
   box-shadow: 0vw 0.57vw 1.46vw -0.78vw #fbf138;
   display: block;
   transition: 0.5s;
-  margin-top: 2.08vw;
+  margin: 2.08vw auto;
 }
 .popup-button:hover {
   background-color: #2b3541;
@@ -854,10 +875,7 @@ body {
 }
 
 /*----------MEDIA-------------*/
-@media (max-width: 1900px) {
-  .banner-box {
-  }
-}
+
 
 @media (min-width: 861px) {
   .burger-menu {
