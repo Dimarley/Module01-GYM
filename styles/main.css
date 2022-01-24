@@ -3,7 +3,7 @@ body {
   color: #2b3541;
 }
 .container {
-  max-width: 59.375vw;
+  max-width: 59.38vw;
   margin: 0 auto;
   padding-left: 0.78vw;
   padding-right: 0.78vw;
@@ -875,9 +875,259 @@ body {
 }
 
 /*----------MEDIA-------------*/
+@media (max-width: 1199px) {
+  .container {
+    max-width: 91.66vw;
+    margin: 0 auto;
+    padding-left: 0.83vw;
+    padding-right: 0.83vw;
+  }
+  .header-logo {
+    max-width: 8.09vw;
+  }
+  .header-nav {
+    margin-top: 0.33vw;
+    padding-left: 3.84vw;
+    gap: 4.5vw;
+  }
+  .header-nav a {
+    font-size: 1.5vw;
+  }
+  .social {
+    gap: 2.5vw;
+  }
+  .inst {
+    width: 2.5vw;
+  }
+  .fb {
+    width: 2.5vw;
+  }
+  .banner {
+    margin-top: 13.34vw;
+  }
+  .banner-title {
+    font-size: 4vw;
+  }
+  .text-first {
+    font-size: 3.34vw;
+    margin-top: 3.67vw;
+  }
+  .text-first span {
+    margin-right: 1.83vw;
+  }
+  .text-second {
+    font-size: 1.5vw;
+    margin-top: 1.92vw;
+    margin-left: 7.67vw;
+    margin-bottom: 4.92vw;
+  }
+  .banner-link {
+    font-size: 1.33vw;
+    padding: 1.67vw 2.5vw;
+    margin-left: 7.76vw;
+  }
 
+  .arrow {
+    max-width: 4.67vw;
+    height: 4.67vw;
+    margin-top: 10.68vw;
+  }
+  .banner-box {
+    max-width: 83.07vw;
+    width: 69%;
+    height: 58.97vw;
+    top: -13.18vw;
+    right: 0.08vw;
+  }
+  .events-title h2 {
+    font-size: 3.34vw;
+  }
+  .events-flex {
+    height: 45.04vw;
+  }
+  .date {
+    font-size: 1.5vw;
+  }
+  .events h3 {
+    font-size: 2.34vw;
+  }
+  .events .button {
+    font-size: 1.33vw;
+    margin-left: 1.33vw;
+    margin-top: 24.94px;
+    padding: 1.67vw 2.92vw;
+    max-width: 12.26vw;
+  }
+  .type {
+    font-size: 1.5vw;
+  }
+  .timetable {
+    margin-top: 6.67vw;
+  }
+  .text-title {
+    font-size: 3.34vw;
+  }
+  .date-title {
+    margin-top: 4.09vw;
+    font-size: 2.17vw;
+  }
+  .grid {
+    grid-template-rows: 21.02vw 3.75vw 6.84vw 23.94vw;
+    gap: 0.83vw;
+  }
+  .date-item {
+    margin-top: 1.42vw;
+    margin-left: 15.85vw;
+    font-size: 1.5vw;
+  }
+  .grid-item img {
+    margin-left: 2.34vw;
+  }
+  .funct-training img {
+    width: 5vw;
+    margin-top: 3.42vw;
+  }
+  .body-sculpt img {
+    width: 3.34vw;
+    margin-top: 14.18vw;
+  }
+  .grid-item h3 {
+    font-size: 1.5vw;
+    margin-top: 3.34vw;
+    margin-left: 1.75vw;
+  }
+  .description {
+    font-size: 1.5vw;
+    margin-left: 1.75vw;
+  }
+  .dumbbell img {
+    width: 6.92vw;
+    margin-top: 9.76vw;
+  }
+  .dumbbell h3 {
+    margin-left: 2.92vw;
+  }
+  .jump img {
+    width: 5.42vw;
+    margin-top: 5.42vw;
+  }
+  .active {
+    font-size: 1.5vw;
+    margin-left: 2.34vw;
+    margin-top: 0vw;
+  }
+  .heart img {
+    width: 5.42vw;
+    margin-top: 6.59vw;
+  }
+  .grid-item:hover .training {
+    margin-top: -6.67vw;
+  }
+  .weight img {
+    width: 5vw;
+    margin-top: 13.68vw;
+  }
+  .distribution {
+    margin-top: 13.34vw;
+  }
+  .distr-cover {
+    max-width: 48.71vw;
+    padding: 3.25vw 0 8.01vw;
+  }
+  .distr-title {
+    font-size: 2.8vw;
+    line-height: 1.25;
+  }
+  .distr-title h3::before {
+    top: -1.5vw;
+    left: -2.92vw;
+    height: 4.17vw;
+    width: 4.17vw;
+  }
+  .distr-form {
+    justify-content: space-between;
+    margin-bottom: 0.83vw;
+  }
+  .email {
+    padding: 1.83vw 10.43vw 1.83vw 1.67vw;
+    font-size: 1.5vw;
+    margin-left: 0;
+  }
+  .distr-btn {
+    margin-left: 12.47px;
+    padding: 13.79px 26.26px 12.47px 28.06px;
+    font-size: 1.33vw;
+  }
+  .agreement {
+    padding-left: 0;
+    font-size: 0.92vw;
+  }
+  .about-company {
+    margin-top: 13.34vw;
+    margin-bottom: 6.67vw;
+  }
+  .cover-text-title {
+    font-size: 3.34vw;
+    margin-top: 0.17vw;
+    margin-bottom: 1.83vw;
+  }
+  .cover-text-description {
+    max-width: 40.03vw;
+    margin-bottom: 4.67vw;
+    font-size: 1.5vw;
+    margin-left: 0.08vw;
+  }
+  .cover-text-btn {
+    padding: 1.92vw 4.34vw;
+    font-size: 1.33vw;
+  }
+  .cover-image {
+    width: 48.46vw;
+    height: 28.02vw;
+  }
+  .advantages {
+    margin-top: 4.84vw;
+  }
+  .advantages-item h4 {
+    font-size: 1.51vw;
+    margin-bottom: 1.75vw;
+  }
+  .advantages-item p {
+    font-size: 1.51vw;
+  }
+  .footer-logo {
+    width: 8.09vw;
+    height: 2.5vw;
+    margin-top: 0vw;
+    flex-basis: 16%;
+    margin-left: 0vw;
+  }
+  .footer-nav {
+    gap: 7.51vw;
+    flex-basis: 64.3%;
+    margin-top: 1.25vw;
+  }
+  .footer-nav a {
+    font-size: 1.17vw;
+  }
+  .footer-email {
+    font-size: 1.33vw;
+    margin-top: 1.25vw;
+    margin-right: 5.25vw;
+  }
+  .footer-social {
+    gap: 2.34vw;
+    height: 2.16vw;
+  }
+  .footer-social .inst {
+    width: 2.34vw;
+  }
+  .footer-social .fb {
+    width: 2.24vw;
+  }
+}
 
-@media (min-width: 861px) {
+@media (min-width: 561px) {
   .burger-menu {
     display: none;
   }
