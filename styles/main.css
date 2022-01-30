@@ -135,13 +135,39 @@ body {
   background-image: url(../images/Image\ 1\ screen.png);
   background-size: contain;
   background-repeat: no-repeat;
-  max-width: 51.875vw;
+  max-width: 50.99vw;
   width: 100%;
-  height: 44.2vw;
+  height: 41.98vw;
   position: absolute;
-  top: -11.7vw;
-  right: 10.2vw;
+  top: -9.64vw;
+  right: 10.89vw;
   z-index: -1;
+}
+.box-gradient-left {
+  background: linear-gradient(
+    90deg,
+    #fbf138 0%,
+    rgba(253, 249, 182, 0.45) 145.23%
+  );
+  width: 28.02vw;
+  height: 44.01vw;
+  opacity: 0.2;
+  position: absolute;
+  top: -2.03vw;
+  right: 18.02vw;
+}
+.box-gradient-right {
+  background: linear-gradient(
+    90deg,
+    #fdf9b6 0%,
+    rgba(253, 249, 182, 0.7) 166.81%
+  );
+  width: 11.98vw;
+  height: 44.01vw;
+  opacity: 0.2;
+  position: absolute;
+  top: -2.03vw;
+  right: 5vw;
 }
 
 /*---------EVENTS---------*/
@@ -679,10 +705,6 @@ body {
 .footer-social .fb {
   width: 1.4vw;
 }
-.footer-social-mobile {
-  display: none;
-}
-
 .footer-end {
   display: flex;
   justify-content: space-between;
@@ -707,16 +729,7 @@ body {
 }
 
 /*----------BURGER-MENU---------*/
-.burger-menu {
-  width: 1.77vw;
-  height: 1.2vw;
-  background-color: transparent;
-  background-image: url(../images/burger-menu.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: none;
-  cursor: pointer;
-}
+
 .modal-mobile {
   max-width: 100%;
   background-color: #f3f3f3;
@@ -939,6 +952,18 @@ body {
     top: -13.18vw;
     right: 0.08vw;
   }
+  .box-gradient-left {
+    width: 36.39vw;
+    height: 56.72vw;
+    top: 0.5vw;
+    right: 26.22vw;
+  }
+  .box-gradient-right {
+    width: 19.33vw;
+    height: 56.72vw;
+    top: 0.5vw;
+    right: 4.87vw;
+  }
   .events-title h2 {
     font-size: 3.34vw;
   }
@@ -1099,7 +1124,6 @@ body {
     width: 8.09vw;
     height: 2.5vw;
     margin-top: 0vw;
-    flex-basis: 16%;
     margin-left: 0vw;
   }
   .footer-nav {
@@ -1115,6 +1139,12 @@ body {
     margin-top: 1.25vw;
     margin-right: 5.25vw;
   }
+  .footer-email::before {
+    right: 11.18vw;
+    bottom: 0.83vw;
+    height: 2.09vw;
+    width: 2.09vw;
+  }
   .footer-social {
     gap: 2.34vw;
     height: 2.16vw;
@@ -1125,9 +1155,524 @@ body {
   .footer-social .fb {
     width: 2.24vw;
   }
+  .popup-content {
+    width: 50.04vw;
+    padding: 3.01vw 0vw 3.43vw;
+    margin-bottom: 3.33vw;
+  }
+  .popup-close {
+    width: 1.67vw;
+    height: 1.67vw;
+    top: 2.83vw;
+    right: 2.34vw;
+  }
+  .popup-title {
+    font-size: 2.34vw;
+    line-height: 125%;
+    margin-bottom: 0.83vw;
+  }
+  .popup-title::before {
+    top: -2.75vw;
+    left: 10.34vw;
+    padding: 2.26vw;
+  }
+  .popup-text {
+    font-size: 1.51vw;
+    margin-bottom: 3.33vw;
+    max-width: 34.94vw;
+    margin-left: 7.51vw;
+    margin-top: 1.51vw;
+  }
+  .popup-form input {
+    padding: 1.84vw 0 1.84vw 2vw;
+    width: 39.62vw;
+    font-size: 1.51vw;
+  }
+  .popup-form input[type="email"] {
+    margin-bottom: 1.75vw;
+  }
+  .popup-button {
+    font-size: 1.33vw;
+    width: 37.95vw;
+    padding: 1.92vw;
+    letter-spacing: 0.05vw;
+    box-shadow: 0vw 0.91vw 2.34vw -1.25vw #fbf138;
+    margin: 3.33vw auto;
+  }
+}
+@media (max-width: 769px) {
+  .container {
+    max-width: none;
+    margin: 0 auto;
+    padding-left: 1.3vw;
+    padding-right: 1.3vw;
+  }
+  .header-logo {
+    max-width: 10.16vw;
+    height: 3.13vw;
+  }
+  .burger-menu {
+    width: 3.91vw;
+    background-color: transparent;
+    background-image: url(../images/burger-menu.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    margin-left: 7.42vw;
+    margin-top: 0.13vw;
+  }
+  .header-nav {
+    display: none;
+  }
+  .social {
+    gap: 2.6vw;
+  }
+  .inst {
+    width: 3.39vw;
+  }
+  .fb {
+    width: 3.13vw;
+  }
+  .banner {
+    margin-top: 7.81vw;
+  }
+  .banner-title {
+    font-size: 3.39vw;
+  }
+  .text-first {
+    font-size: 3.39vw;
+    margin-top: 5.86vw;
+  }
+  .text-first span {
+    margin-right: 2.6vw;
+  }
+  .text-second {
+    font-size: 2.08vw;
+    margin-top: 2.34vw;
+    margin-left: 0vw;
+    margin-bottom: 8.59vw;
+  }
+  .banner-link {
+    font-size: 2.08vw;
+    padding: 2.86vw 3.39vw;
+    margin-left: 0.65vw;
+  }
+  .arrow {
+    max-width: 5.47vw;
+    height: 5.34vw;
+    margin-top: 8.85vw;
+  }
+  .banner-box {
+    width: 51.82vw;
+    height: 55.86vw;
+    top: 9.77vw;
+    right: 1.56vw;
+  }
+  .box-gradient-left {
+    width: 26.04vw;
+    height: 56.51vw;
+    top: -13.8vw;
+    right: 21.22vw;
+  }
+  .box-gradient-right {
+    width: 19.79vw;
+    height: 56.51vw;
+    top: -13.8vw;
+    right: 0vw;
+  }
+  .events {
+    margin-top: 14.19vw;
+  }
+  .events-title h2 {
+    font-size: 3.39vw;
+  }
+  .events-flex {
+    height: 40.23vw;
+    justify-content: normal;
+    flex-wrap: wrap;
+    gap: 1.3vw 2.6vw;
+    max-width: 100%;
+  }
+  .marathon {
+    width: 354.36px;
+    height: 40.23vw;
+    background-image: url(../images/maraphon-mobile.png);
+    max-width: 48%;
+  }
+  .trainer {
+    width: 356.35px;
+    height: 39.97vw;
+    background-image: url(../images/Vebinar\ 1-mobile.png);
+    max-width: 49%;
+  }
+  .yoga {
+    background-image: url(../images/Vebinar\ 2\ mobile.png);
+    width: 96.4vw;
+    height: 43.75vw;
+    max-width: 100%;
+  }
+  .date {
+    font-size: 1.56vw;
+    margin-top: 2.34vw;
+    margin-left: 3.39vw;
+  }
+  .events h3 {
+    font-size: 2.08vw;
+    margin-left: 2.99vw;
+    margin-top: 2.08vw;
+    max-width: 18.23vw;
+  }
+  .events .button {
+    display: none;
+  }
+  .events .button-mobile {
+    display: block;
+    text-decoration: none;
+    background-image: url(../images/add.svg);
+    background-position: center;
+    width: 3.91vw;
+    height: 3.91vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: 0.5s;
+  }
+  .type {
+    font-size: 1.56vw;
+    right: auto;
+    padding: 1.04vw 2.08vw;
+  }
+  .timetable {
+    margin-top: 54.56vw;
+  }
+  .text-title {
+    font-size: 3.39vw;
+  }
+  .date-title {
+    margin-top: 4.04vw;
+    font-size: 2.21vw;
+  }
+  .grid {
+    margin-top: 2.6vw;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "func mix"
+      "body breath"
+      "lab  complex";
+    gap: 2.6vw 2.08vw;
+    padding-right: 1.56vw;
+  }
+  .grid-item:nth-child(1) {
+    max-height: 42.06vw;
+    max-width: 45.96vw;
+    grid-area: func;
+  }
+  .grid-item:nth-child(2) {
+    grid-area: body;
+    max-height: 27.86vw;
+    max-width: 45.96vw;
+  }
+  .grid-item:nth-child(3) {
+    grid-area: lab;
+    max-height: 27.86vw;
+    max-width: 45.96vw;
+  }
+  .grid-item:nth-child(4) {
+    grid-area: mix;
+    max-height: 42.06vw;
+    max-width: 45.96vw;
+  }
+  .grid-item:nth-child(5) {
+    grid-area: breath;
+    max-height: 27.86vw;
+    max-width: 45.96vw;
+  }
+  .grid-item:nth-child(6) {
+    grid-area: complex;
+    max-height: 27.86vw;
+    max-width: 45.96vw;
+  }
+  .grid-item {
+  }
+  .date-item {
+    margin-top: 2.34vw;
+    margin-right: 2.6vw;
+    font-size: 2.08vw;
+    text-align: right;
+  }
+  .grid-item img {
+    margin-left: 2.47vw;
+  }
+  .funct-training img {
+    width: 8.33vw;
+    margin-top: 17.71vw;
+  }
+  .body-sculpt img {
+    width: 5.47vw;
+    margin-top: 1.17vw;
+    margin-left: 2.99vw;
+  }
+  .grid-item h3 {
+    font-size: 2.08vw;
+    margin-top: 4.17vw;
+    margin-left: 2.34vw;
+  }
+  .description {
+    font-size: 1.56vw;
+    margin-left: 1.69vw;
+  }
+  .dumbbell img {
+    width: 11.85vw;
+    margin-top: 6.38vw;
+  }
+  .dumbbell h3 {
+    margin-left: 2.34vw;
+    margin-top: 3.52vw;
+    font-size: 2.34vw;
+  }
+  .jump img {
+    width: 8.59vw;
+    margin-top: 1.17vw;
+    margin-left: 2.08vw;
+  }
+  .active {
+    font-size: 1.56vw;
+    max-width: 29.95vw;
+    margin-left: 2.34vw;
+    margin-top: 0vw;
+  }
+  .heart img {
+    width: 8.46vw;
+    margin-top: 4.04vw;
+  }
+  .grid-item:hover .training {
+    margin-top: -6.64vw;
+  }
+  .weight img {
+    width: 7.55vw;
+    margin-top: 4.17vw;
+  }
+  .weight h3 {
+    font-size: 2.34vw;
+    margin-top: 3.78vw;
+  }
+  .distribution {
+    margin-top: 13.15vw;
+  }
+  .distr-cover {
+    max-width: 48.7vw;
+    padding: 3.26vw 0 19.92vw;
+  }
+  .distr-title {
+    font-size: 2.86vw;
+    line-height: 4.17vw;
+    text-align: center;
+    max-width: 26.17vw;
+    margin: 0 auto;
+  }
+  .distr-title h3::before {
+    top: -1.56vw;
+    left: -1.82vw;
+    height: 4.17vw;
+    width: 4.17vw;
+  }
+
+  .distr-form {
+    display: block;
+    margin-bottom: 0.78vw;
+    position: relative;
+  }
+  .email {
+    padding: 2.99vw 12.11vw 2.99vw 3.78vw;
+    font-size: 2.34vw;
+    margin-top: 3.26vw;
+    margin-left: 1.43vw;
+  }
+  .distr-btn {
+    position: absolute;
+    bottom: -18.23vw;
+    left: 0.78vw;
+    padding: 2.6vw 14.32vw 2.6vw 11.72vw;
+    font-size: 2.08vw;
+  }
+  .agreement {
+    padding-left: 2.34vw;
+    font-size: 1.43vw;
+    margin-top: 1.95vw;
+    margin-left: 1.17vw;
+  }
+  .checkbox:not(:checked) + label::before {
+    left: -1.37vw;
+    top: -0.26vw;
+    width: 2.08vw;
+    height: 2.08vw;
+  }
+  .checkbox:checked + label::after {
+    width: 3.13vw;
+    height: 3.13vw;
+    left: -1.69vw;
+    top: -0.65vw;
+  }
+  .about-company {
+    margin-top: 12.24vw;
+    margin-bottom: 8.59vw;
+  }
+  .cover-text-title {
+    font-size: 3.39vw;
+    margin-top: 0.13vw;
+    margin-bottom: 2.34vw;
+  }
+  .cover-text-description {
+    max-width: 43.75vw;
+    margin-bottom: 7.77vw;
+    font-size: 2.08vw;
+    margin-left: -0.26vw;
+  }
+  .cover-text-btn {
+    padding: 3.26vw 5.86vw;
+    font-size: 2.08vw;
+  }
+  .cover-image {
+    width: 48.44vw;
+    height: 29.56vw;
+  }
+  .advantages {
+    justify-content: normal;
+    margin-top: 7.55vw;
+    flex-wrap: wrap;
+  }
+  .advantages-item h4 {
+    font-size: 2.08vw;
+    line-height: 120%;
+  }
+  .advantages-item p {
+    font-size: 2.08vw;
+  }
+  .advantages-item:nth-child(1) {
+    margin-right: 20.05vw;
+    width: 27.08vw;
+  }
+  .advantages-item:nth-child(2) {
+    width: 29.04vw;
+  }
+  .advantages-item:nth-child(3) {
+    margin-top: 0.78vw;
+    width: 23.96vw;
+    margin-right: 23.31vw;
+  }
+  .advantages-item:nth-child(4) {
+    width: 23.96vw;
+    margin-top: 0.78vw;
+  }
+  .footer {
+    padding-top: 7.29vw;
+  }
+  .footer-item {
+    justify-content: normal;
+    align-items: normal;
+    flex-wrap: wrap;
+  }
+  .footer-logo {
+    width: 12.63vw;
+    height: 3.91vw;
+    margin-top: 1.56vw;
+  }
+  .footer-nav {
+    gap: 3.26vw;
+    flex-basis: auto;
+    margin-top: 2.34vw;
+    margin-left: 43.88vw;
+  }
+  .footer-nav a {
+    font-size: 1.56vw;
+  }
+  .footer-email {
+    font-size: 1.56vw;
+    margin-top: 5.6vw;
+    margin-right: 4.56vw;
+    margin-left: 69.01vw;
+  }
+
+  .footer-email::before {
+    right: 12.37vw;
+    bottom: 0.65vw;
+    height: 2.6vw;
+    width: 2.6vw;
+  }
+  .footer-social {
+    gap: 2.99vw;
+    height: 2.21vw;
+    margin-top: 4.95vw;
+  }
+  .footer-social .inst {
+    width: 3.52vw;
+    height: 3.52vw;
+  }
+  .footer-social .fb {
+    width: 3.52vw;
+    height: 3.52vw;
+  }
+  .footer-end {
+    justify-content: space-between;
+    margin-top: 0.65vw;
+    margin-left: 0.13vw;
+  }
+  .footer-text {
+    font-size: 1.3vw;
+    margin-top: 4.43vw;
+  }
+  .footer-front {
+    font-size: 1.3vw;
+  }
+  .popup-content {
+    width: 50vw;
+    padding: 2.99vw 0vw 3.39vw;
+    margin-bottom: 3.39vw;
+  }
+  .popup-close {
+    width: 1.69vw;
+    height: 1.69vw;
+    top: 2.86vw;
+    right: 2.34vw;
+  }
+  .popup-title {
+    font-size: 2.34vw;
+    line-height: 125%;
+    margin-bottom: 0.78vw;
+  }
+  .popup-title::before {
+    top: -2.73vw;
+    left: 10.29vw;
+    padding: 2.21vw;
+  }
+  .popup-text {
+    font-size: 1.56vw;
+    margin-bottom: 3.39vw;
+    max-width: 34.9vw;
+    margin-left: 7.55vw;
+    margin-top: 1.56vw;
+  }
+  .popup-form input {
+    padding: 1.82vw 0 1.82vw 1.95vw;
+    width: 39.58vw;
+    font-size: 1.56vw;
+  }
+  .popup-form input[type="email"] {
+    margin-bottom: 1.69vw;
+  }
+  .popup-button {
+    font-size: 1.3vw;
+    width: 37.89vw;
+    padding: 1.95vw;
+    letter-spacing: 0vw;
+    box-shadow: 0vw 0.91vw 2.34vw -1.3vw #fbf138;
+    margin: 3.39vw auto;
+  }
 }
 
-@media (min-width: 561px) {
+@media (min-width: 769px) {
   .burger-menu {
     display: none;
   }
