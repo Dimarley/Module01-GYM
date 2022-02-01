@@ -58,9 +58,9 @@
           <button class="burger-menu" onclick="openModal()"></button>
           <nav>
             <ul class="header-nav">
-              <li><a href="#">Мероприятия</a></li>
-              <li><a href="#">Расписание</a></li>
-              <li><a href="#">О компании</a></li>
+              <li><a href="#events">Мероприятия</a></li>
+              <li><a href="#timetable">Расписание</a></li>
+              <li><a href="#about-company">О компании</a></li>
             </ul>
           </nav>
           <div class="social">
@@ -94,7 +94,7 @@
       </div>
 
       <!---------EVENTS--------->
-      <section>
+      <section id="events">
         <div class="events">
           <div class="container">
             <div class="events-title">
@@ -242,7 +242,7 @@
         </div>
       </div>
       <!----------ABOUT COMPANY------->
-      <div class="about-company">
+      <div class="about-company" id="about-company">
         <div class="container">
           <div class="about-company-cover">
             <div class="cover-text">
@@ -285,9 +285,9 @@
           <div class="footer-item">
             <div class="footer-logo"></div>
             <ul class="footer-nav">
-              <li><a href="#">Мероприятия</a></li>
-              <li><a href="#">Расписание</a></li>
-              <li><a href="#">О компании</a></li>
+              <li><a href="#events">Мероприятия</a></li>
+              <li><a href="#timetable">Расписание</a></li>
+              <li><a href="#about-company">О компании</a></li>
             </ul>
             <p class="footer-email">info@freefit.com</p>
             <div class="footer-social">
@@ -310,9 +310,9 @@
     <div id="modal-mobile" class="modal-mobile">
       <a href="#" class="header-logo"></a>
       <ul class="header-nav">
-        <li><a href="#">Мероприятия</a></li>
-        <li><a href="#">Расписание</a></li>
-        <li><a href="#">О компании</a></li>
+        <li><a href="#events">Мероприятия</a></li>
+        <li><a href="#timetable">Расписание</a></li>
+        <li><a href="#about-company">О компании</a></li>
       </ul>
       <div class="social">
         <a href="#" class="inst"></a>
@@ -387,7 +387,7 @@
       // Menu
 
       function openModal() {
-        document.getElementById("modal-mobile").style.top = "-20px";
+        document.getElementById("modal-mobile").style.top = "-3.91vw";
       }
 
       function closeModalMenu() {

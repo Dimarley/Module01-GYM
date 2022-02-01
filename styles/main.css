@@ -1150,6 +1150,9 @@ body {
     padding-left: 1.3vw;
     padding-right: 1.3vw;
   }
+  .header {
+    margin-top: 1.3vw;
+  }
   .header-logo {
     max-width: 10.16vw;
     height: 3.13vw;
@@ -1616,74 +1619,78 @@ body {
 
   /*----------BURGER-MENU---------*/
 
-.modal-mobile {
-  max-width: 100%;
-  background-color: #f3f3f3;
-  text-align: center;
-  position: absolute;
-  top: -570px;
-  left: 0;
-  right: 0;
-  margin: 4.99px auto 0;
-  padding: 39.94px 14.98px 19.97px;
-  box-sizing: border-box;
-}
-.modal-mobile .logo-header {
-  margin-top: 0px;
-}
-.modal-mobile .header-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 39.94px;
-  margin: 0 auto;
-  margin-left: 0;
-  text-align: left;
-  margin-top: 29.95px;
-  margin-bottom: 39.94px;
-  padding: 0;
-}
-.modal-mobile .header-nav li:nth-child(2) {
-  width: 100%;
-  padding: 19.97px 0;
-  border-top: 1px solid #cbcdcf;
-  border-bottom: 1px solid #cbcdcf;
-}
-.modal-mobile .social {
-  justify-content: flex-end;
-  margin-bottom: 60.13px;
-}
-.modal-mobile .inst{
-  width: 26px;
-  height: 26px;
+  .modal-mobile {
+    max-width: 100%;
+    background-color: #f3f3f3;
+    text-align: center;
+    position: absolute;
+    top: -74.22vw;
+    left: 0;
+    right: 0;
+    padding: 5.2vw 1.95vw 2.6vw;
+    box-sizing: border-box;
+  }
+  -3.91vw
+  .modal-mobile .header-logo {
+    margin-top: 1.3vw;
+    margin-left: -0.65vw;
+    width: 10.16vw;
+  }
+  .modal-mobile .header-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5.2vw;
+    margin: 0 auto;
+    margin-left: 0;
+    text-align: left;
+    margin-top: 3.9vw;
+    margin-bottom: 5.2vw;
+    padding: 0;
+  }
+  .modal-mobile .header-nav li {
+    border-bottom: 0.13vw solid #cbcdcf;
+    width: 100%;
+    padding-bottom: 2.6vw;
+  } 
+ 
+  .modal-mobile .header-nav a:hover:after {
+    width: 0;
 
+  }
+  .modal-mobile .social {
+    justify-content: flex-end;
+    margin-bottom: 7.83vw;
+  }
+  .modal-mobile .inst {
+    width: 3.39vw;
+    height: 3.39vw;
+  }
+  .modal-mobile .fb {
+    width: 3.39vw;
+    height: 3.39vw;
+  }
+  .modal-mobile .banner-link {
+    margin: 0;
+    
+    max-width: 46.88vw;
+  }
+  .burger-close {
+    width: 2.88vw;
+    height: 2.88vw;
+    background-color: transparent;
+    background-image: url(../images/close.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 6.25vw;
+    right: 2.73vw;
+  }
 }
-.modal-mobile .fb{
-  width: 26px;
-  height: 26px;
 
-}
-.modal-mobile .banner-link {
-  margin: 0;
-  padding: ;
-  max-width: 360.04px;
-}
-.burger-close {
-  width: 22.12px;
-  height: 22.12px;
-  background-color: transparent;
-  background-image: url(../images/close.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: none;
-  cursor: pointer;
-  position: absolute;
-  top: 39.94px;
-  right: 19.97px;
-}
-}
-
-@media (min-width: 769px) {
+@media (min-width: 770px) {
   .burger-menu {
     display: none;
   }
