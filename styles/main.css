@@ -1772,8 +1772,9 @@ body {
     margin-bottom: 16.94vw;
   }
   .banner-link {
-    font-size: 4.44vw;
-    padding: 5.56vw 20.83vw 7.22vw 19.72vw;
+    font-size: 4.1vw;
+    padding: 5vw 20.83vw 8.06vw;
+    margin-left: 0;
   }
   .arrow {
     display: none;
@@ -1863,26 +1864,10 @@ body {
   }
   .grid-item:nth-child(1) {
     max-height: 30vw;
-
-    grid-area: func;
-  }
-  .grid-item:nth-child(2) {
-    grid-area: body;
-  }
-  .grid-item:nth-child(3) {
-    grid-area: lab;
   }
   .grid-item:nth-child(4) {
-    grid-area: mix;
     max-height: 57.22vw;
   }
-  .grid-item:nth-child(5) {
-    grid-area: breath;
-  }
-  .grid-item:nth-child(6) {
-    grid-area: complex;
-  }
-
   .grid-item {
     max-width: 94.44vw;
     max-height: 30vw;
@@ -1981,9 +1966,11 @@ body {
     padding: 8.33vw 0 42.5vw;
   }
   .distr-title {
-    font-size: 6.11vw;
-    line-height: 8.89vw;
     max-width: 55.28vw;
+  }
+  .distr-title h3 {
+    font-size: 26px;
+    line-height: 32px;
   }
   .distr-title h3::before {
     top: -3.06vw;
@@ -1996,11 +1983,11 @@ body {
     margin-bottom: 0;
   }
   .email {
-    max-width: 28.61vw;
-    padding: 6.67vw 57.78vw 6.11vw 4.44vw;
-    font-size: 5vw;
-    margin-top: 6.39vw;
-    margin-left: 2.22vw;
+    max-width: 103px;
+    padding: 24px 213px 22px 25px;
+    font-size: 18px;
+    margin-top: 23px;
+    margin-left: 0px;
   }
   .distr-btn {
     bottom: -39.72vw;
@@ -2017,18 +2004,18 @@ body {
 
   .checkbox:checked + label,
   .checkbox:not(:checked) + label {
-    padding-left: 0.28vw;
+    padding-left: 0px;
   }
   .checkbox:not(:checked) + label::before {
-    left: -6.39vw;
-    top: 0vw;
-    width: 4.17vw;
-    height: 4.17vw;
+    left: -6.94vw;
+    top: -0.28vw;
+    width: 4.44vw;
+    height: 4.44vw;
   }
   .checkbox:checked + label::after {
     width: 6.39vw;
     height: 6.39vw;
-    left: -6.94vw;
+    left: -7.5vw;
     top: -0.83vw;
   }
   .about-company {
@@ -2093,8 +2080,12 @@ body {
     padding-top: 11.11vw;
   }
   .footer-item {
-    display: block;
-    position: relative;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "logo logo logo"
+      "navigation navigation navigation"
+      "email email social";
   }
   .footer-logo {
     width: 27.78vw;
@@ -2103,7 +2094,7 @@ body {
     margin-left: 33.33vw;
   }
   .footer-nav {
-    gap: 13.61vw;
+    gap: 13.6vw;
     margin-bottom: 0;
     margin-top: 11.11vw;
     margin-left: 0vw;
@@ -2112,43 +2103,35 @@ body {
     font-size: 3.33vw;
   }
   .footer-email {
-    display: inline-block;
     font-size: 3.33vw;
     margin-top: 6.94vw;
     margin-right: 42.5vw;
     margin-left: 0vw;
-    position: absolute;
-    top: 25vw;
   }
 
   .footer-email::before {
-    right: 25.56vw;
-    bottom: 2.22vw;
-    height: 6.39vw;
-    width: 6.39vw;
+    right: 16.39vw;
+    bottom: 1.94vw;
+    height: 5.56vw;
+    width: 5.56vw;
   }
   .footer-social {
-    display: inline-block;
-    margin-top: 0;
     height: 7.5vw;
-    position: absolute;
-    top: 30.56vw;
-    left: 73.06vw;
+    margin-top: 3.61vw;
+    margin-left: 10vw;
+    gap: 6.39vw;
   }
   .footer-social .inst {
-    display: inline-block;
     width: 7.5vw;
     height: 7.5vw;
-    margin-right: 5vw;
   }
   .footer-social .fb {
-    display: inline-block;
-    width: 7.3vw;
+    width: 7.5vw;
     height: 7.5vw;
   }
   .footer-end {
     display: block;
-    margin-top: 24.17vw;
+    margin-top: 33px;
     margin-left: 0vw;
   }
   .footer-text {
@@ -2165,78 +2148,80 @@ body {
     margin-top: 40%;
   }
   .popup-content {
-    width: 100vw;
-    padding: 6.39vw 0vw 6.39vw;
-    margin-bottom: 6.39vw;
+    width: 360px;
+    padding: 23px 0px 23px;
+    margin-bottom: 23px;
   }
   .popup-close {
-    width: 4.17vw;
-    height: 4.17vw;
-    top: 6.39vw;
-    right: 4.17vw;
+    width: 15px;
+    height: 15px;
+    top: 23px;
+    right: 15px;
   }
   .popup-title {
-    font-size: 5vw;
-    margin-bottom: 0vw;
+    font-size: 18px;
+    margin-bottom: 0px;
   }
   .popup-title::before {
-    top: -4.17vw;
-    left: 20vw;
-    padding: 4.17vw;
+    top: -11px;
+    left: 49px;
+    padding: 15px;
   }
   .popup-text {
-    font-size: 4.17vw;
-    margin-bottom: 6.39vw;
-    max-width: 78.33vw;
-    margin-left: 10.28vw;
-    margin-top: 4.17vw;
+    font-size: 15px;
+    margin-bottom: 23px;
+    max-width: 282px;
+    margin-left: 37px;
+    margin-top: 15px;
   }
   .popup-form input {
-    padding: 4.17vw 0 4.17vw 4.17vw;
-    width: 85vw;
-    font-size: 4.17vw;
+    padding: 15px 0 15px 15px;
+    width: 306px;
+    font-size: 15px;
   }
   .popup-form input[type="email"] {
-    margin-bottom: 4.17vw;
+    margin-bottom: 15px;
   }
   .popup-button {
-    font-size: 4.44vw;
-    width: 80.83vw;
-    padding: 4.17vw;
-    letter-spacing: 0vw;
-    box-shadow: 0vw 2.22vw 4.17vw -2.22vw #fbf138;
-    margin: 6.39vw auto;
+    font-size: 16px;
+    width: 291px;
+    padding: 15px;
+    letter-spacing: 0px;
+    box-shadow: 0px 8px 15px -8px #fbf138;
+    margin: 23px auto;
   }
 
   /*----------BURGER-MENU---------*/
 
   .modal-mobile {
-    padding: 10.56vw 4.17vw 6.39vw;
+    padding: 0vw 0vw 6.39vw;
   }
-
   .modal-mobile .header-logo {
-    margin-top: -2.22vw;
-    margin-left: -1.39vw;
-    width: 21.67vw;
+    margin-top: 8.33vw;
+    margin-left: 2.78vw;
+    width: 21.94vw;
   }
   .modal-mobile .header-nav {
     gap: 11.11vw;
-    margin-top: 8.61vw;
-    margin-bottom: 10.56vw;
+    margin-top: 11.67vw;
+    margin-bottom: 16.11vw;
+    margin-left: 2.78vw;
   }
   .modal-mobile .header-nav a {
     font-size: 4.44vw;
   }
   .modal-mobile .header-nav li {
-    padding-bottom: 7.5vw;
+    padding-bottom: 5vw;
+    margin-bottom: -5.28vw;
   }
 
   .modal-mobile .header-nav a:hover:after {
     width: 0;
   }
   .modal-mobile .social {
-    margin-bottom: 16.67vw;
     gap: 5.56vw;
+    margin-bottom: 20.83vw;
+    margin-right: 8.61vw;
   }
   .modal-mobile .inst {
     width: 7.22vw;
@@ -2247,13 +2232,13 @@ body {
     height: 7.22vw;
   }
   .modal-mobile .banner-link {
-    font-size: 4.17vw;
-    max-width: 94.44vw;
+    font-size: 4.44vw;
+    padding: 6.39vw 18.89vw 7.22vw;
   }
   .burger-close {
     width: 6.39vw;
-    height: 6.39vw;
-    top: 8.06vw;
-    right: 4.72vw;
+    height: 5vw;
+    top: 9.17vw;
+    right: 1.94vw;
   }
 }
