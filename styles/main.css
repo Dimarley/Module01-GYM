@@ -44,13 +44,13 @@ body {
   content: "";
   display: block;
   width: 0;
-  height: 0.052vw;
+  height: 0.05vw;
   background-color: #2b3540;
   transition: 0.5s;
+  margin-top: 0.208vw;
 }
 .header-nav a:hover:after {
   width: 100%;
-  margin-top: 0.208vw;
 }
 .social {
   display: flex;
@@ -120,6 +120,7 @@ body {
 .banner-link:hover {
   background: #2b3541;
   color: #fbf138;
+  box-shadow: 0vw 0.677vw 1.25vw rgb(43 53 65 / 30%);
 }
 .arrow {
   display: block;
@@ -142,7 +143,6 @@ body {
   position: absolute;
   top: -9.64vw;
   right: 10.89vw;
-  z-index: -1;
 }
 .box-gradient-left {
   background: linear-gradient(
@@ -156,6 +156,7 @@ body {
   position: absolute;
   top: -2.03vw;
   right: 18.02vw;
+  z-index: -1;
 }
 .box-gradient-right {
   background: linear-gradient(
@@ -169,6 +170,7 @@ body {
   position: absolute;
   top: -2.03vw;
   right: 5vw;
+  z-index: -1;
 }
 
 /*---------EVENTS---------*/
@@ -242,6 +244,7 @@ body {
   text-transform: uppercase;
   color: #fbf138;
   background: #2b3541;
+  box-shadow: 0vw 0.677vw 1.25vw rgb(43 53 65 / 30%);
   margin-left: 1.56vw;
   margin-top: 2.08vw;
   padding: 1.09vw 1.93vw;
@@ -467,6 +470,7 @@ body {
   margin-left: 1.04vw;
   padding: 1.15vw 2.19vw 1.04vw 2.34vw;
   background-color: #fbf138;
+  box-shadow: 0vw 0.677vw 1.25vw rgb(251 241 56 / 30%);
   font-weight: bold;
   font-size: 0.83vw;
   line-height: 150%;
@@ -481,11 +485,18 @@ body {
 .distr-btn:hover {
   background: #2b3541;
   color: #fbf138;
+  box-shadow: 0vw 0.677vw 1.25vw rgb(43 53 65 / 30%);
 }
 .agreement {
   padding-left: 0.47vw;
   font-size: 0.57vw;
   gap: 0.52vw;
+}
+.agreement span {
+  opacity: 50%;
+}
+.agreement a {
+  color: #2b3541;
 }
 .checkbox:checked,
 .checkbox:not(:checked) {
@@ -532,7 +543,7 @@ body {
 /*----------ABOUT COMPANY--------*/
 .about-company {
   margin-top: 8.44vw;
-  margin-bottom: 7.81vw;
+  margin-bottom: 7.86vw;
 }
 
 .about-company-cover {
@@ -568,10 +579,12 @@ body {
   border: none;
   cursor: pointer;
   transition: 0.5s;
+  box-shadow: 0vw 0.677vw 1.25vw rgb(251 241 56 / 30%);
 }
 .cover-text-btn:hover {
   background-color: #2b3541;
   color: #fbf138;
+  box-shadow: 0vw 0.677vw 1.25vw rgb(43 53 65 / 30%);
 }
 .cover-image {
   background: linear-gradient(
@@ -630,7 +643,7 @@ body {
 /*----------FOOTER---------*/
 .footer {
   background-color: #f3f3f3;
-  padding-top: 1.56vw;
+  padding-top: 1.35vw;
 }
 
 .footer-item {
@@ -643,9 +656,9 @@ body {
   background-size: contain;
   width: 5.05vw;
   height: 1.56vw;
-  margin-top: 0.89vw;
+  margin-top: 0px;
   flex-basis: 16%;
-  margin-left: 0.16vw;
+  margin-left: 0px;
 }
 .footer-nav {
   list-style-type: none;
@@ -654,7 +667,8 @@ body {
   gap: 4.69vw;
   flex-basis: 64.3%;
   padding: 0;
-  margin-top: 1.56vw;
+  margin-top: 1.41vw;
+  margin-left: 0.1vw;
 }
 
 .footer-nav li {
@@ -662,16 +676,25 @@ body {
   border-bottom: none;
   transition: 0.5s;
 }
-.footer-nav li:hover {
-  margin-top: -0.21vw;
-  border-bottom: 0.05vw solid #2b3540;
-}
+
 .footer-nav a {
   text-decoration: none;
   color: #2b3541;
   font-weight: normal;
   font-size: 0.73vw;
   line-height: 150%;
+}
+.footer-nav a:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0.052vw;
+  background-color: #2b3540;
+  transition: 0.5s;
+  margin-top: 0.208vw;
+}
+.footer-nav a:hover:after {
+  width: 100%;
 }
 
 .footer-email {
@@ -680,7 +703,7 @@ body {
   line-height: 150%;
   position: relative;
   z-index: 1;
-  margin-top: 1.51vw;
+  margin-top: 1.04vw;
   margin-right: 3.28vw;
 }
 .footer-email::before {
@@ -710,7 +733,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 0.26vw;
-  margin-left: 0.05vw;
 }
 .footer-text {
   font-weight: 400;
@@ -1029,6 +1051,19 @@ body {
     padding-left: 0;
     font-size: 0.92vw;
   }
+  .checkbox:not(:checked) + label::before {
+    width: 1.33vw;
+    height: 1.33vw;
+    left: 0vw;
+    top: -0.17vw;
+  }
+  .checkbox:checked + label::after {
+    width: 2vw;
+    height: 2vw;
+    left: -0.25vw;
+    top: -0.42vw;
+  }
+
   .about-company {
     margin-top: 13.34vw;
     margin-bottom: 6.67vw;
