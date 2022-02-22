@@ -1686,11 +1686,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 2.6vw;
     margin-left: 0;
     text-align: left;
-    margin-top: 41px;
-    margin-bottom: 39px;
+    margin-top: 5.34vw;
+    margin-bottom: 5.08vw;
     padding: 0;
   }
   .modal-mobile .header-nav a {
@@ -1698,9 +1698,9 @@ body {
   }
 
   .modal-mobile .header-nav li {
-    border-bottom: 1px solid #cbcdcf;
+    border-bottom: 0.13vw solid #cbcdcf;
     width: 100%;
-    padding-bottom: 19px;
+    padding-bottom: 2.47vw;
   }
   .modal-mobile .header-nav li:nth-child(3) {
     border-bottom: none;
@@ -1712,22 +1712,18 @@ body {
   }
   .modal-mobile .social {
     justify-content: flex-end;
-    margin-bottom: 61px;
-    margin-right: 15px;
+    margin-bottom: 2.73vw;
+    margin-right: 1.95vw;
   }
   .modal-mobile .inst {
-    width: 26px;
-    height: 26px;
+    width: 3.39vw;
+    height: 3.39vw;
   }
   .modal-mobile .fb {
-    width: 26px;
-    height: 26px;
+    width: 3.39vw;
+    height: 3.39vw;
   }
-  .modal-mobile .banner-link {
-    margin: 0;
-    font-size: 16px;
-    max-width: 361px;
-  }
+
   .burger-close {
     width: 2.99vw;
     height: 2.99vw;
@@ -2229,7 +2225,7 @@ body {
   /*----------BURGER-MENU---------*/
 
   .modal-mobile {
-    padding: 0vw 0vw 6.39vw;
+    padding: 0px 0px 0px;
   }
   .modal-mobile .header-logo {
     margin-top: 8.33vw;
@@ -2255,7 +2251,7 @@ body {
   }
   .modal-mobile .social {
     gap: 5.56vw;
-    margin-bottom: 20.83vw;
+    margin-bottom: 13.89vw;
     margin-right: 8.61vw;
   }
   .modal-mobile .inst {
@@ -2265,10 +2261,6 @@ body {
   .modal-mobile .fb {
     width: 7.22vw;
     height: 7.22vw;
-  }
-  .modal-mobile .banner-link {
-    font-size: 4.44vw;
-    padding: 6.39vw 18.89vw 7.22vw;
   }
   .burger-close {
     width: 6.39vw;
